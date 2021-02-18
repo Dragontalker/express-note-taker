@@ -13,6 +13,7 @@ router.post('/', (req, res) => {
         res.status(400).send({msg: 'Need non-empty title and text input.'})
     } else {
         const newJSON = {
+            id: uuid.v4(),
             title: newTitle,
             text: newText
         };
