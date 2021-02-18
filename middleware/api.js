@@ -27,7 +27,6 @@ router.delete('/:id', (req, res) => {
     if (found) {
         data = data.filter(obj => obj.id !== req.params.id);
         res.json(data);
-        res.redirect('/notes.html');
     } else {
         res.status(400).json(data);
     };
