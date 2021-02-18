@@ -27,6 +27,8 @@ router.delete('/:id', (req, res) => {
     if (found) {
         const newData = data.filter(obj => obj.id !== req.params.id);
         res.json(newData);
+    } else {
+        res.status(400).json(data);
     }
 });
 
