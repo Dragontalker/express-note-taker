@@ -2,7 +2,7 @@
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Deployed Heroku Link:
-placeholder
+https://dragontalker-note-taker.herokuapp.com/
 
 ## Screenshots
 
