@@ -23,7 +23,8 @@ router.post('/', (req, res) => {
 });
 
 router.delete('/:id', (req, res) => {
-    
+    const found = data.some(obj => obj.id === req.params.id);
+
 });
 
 module.exports = router;
