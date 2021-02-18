@@ -83,9 +83,19 @@ const handleNoteDelete = (e) => {
   const note = e.target;
   const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).id;
 
+  // Fixing bug: see if the button click is registered.
+  console.log(noteId);
+
   if (activeNote.id === noteId) {
     activeNote = {};
   }
+
+  const testDelete = async () => {
+    let test = "d9d0d2e2-ada7-4f03-a812-f26c1a588268"
+    let response = await deleteNote(test);
+    console.log(response.json());
+  }
+
 
   deleteNote(noteId).then(() => {
     getAndRenderNotes();
