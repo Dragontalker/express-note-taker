@@ -24,7 +24,10 @@ router.post('/', (req, res) => {
 
 router.delete('/:id', (req, res) => {
     const found = data.some(obj => obj.id === req.params.id);
-
+    if (found) {
+        const newData = data.filter(obj => obj.id !== req.params.id);
+        res.json(newData);
+    }
 });
 
 module.exports = router;
