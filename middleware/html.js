@@ -13,3 +13,5 @@ router.get('/notes', (req, res) => {
 router.get('*', (req, res) => {
     res.sendFile(getPath("index"));
 });
+
+module.exports = router;
