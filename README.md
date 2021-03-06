@@ -22,6 +22,16 @@ There are three main features of this application:
 2. Click the red delete button in the list to delete the corresponding note from the list.
 3. Click the new entry button on top right corner to open a text area to create new note.
 
+## Technology Used
+* Node.js
+* Express.js
+* RESTful API
+* HTML 5
+* CSS 3
+* Javascript
+* Bootstrap 5
+* Heroku
+
 
 ## User Story
 
