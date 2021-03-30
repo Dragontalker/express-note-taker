@@ -16,6 +16,32 @@ https://dragontalker-note-taker.herokuapp.com/
 - [License](#license)
 - [Author Info](#author-info)
 
+# Description
+
+This project builds a web application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+
+There are three main features of this application:
+
+1. When both title and text are entered, click the save icon to save the note to list.
+2. Click the red delete button in the list to delete the corresponding note from the list.
+3. Click the new entry button on top right corner to open a text area to create new note.
+
+[Back to the Top](#note-taker)
+
+## :wrench: **Technologies Used**
+
+- Node.js
+- Express.js
+- RESTful API
+- HTML 5
+- CSS 3
+- Javascript
+- Bootstrap 5
+- VS Code
+- Heroku
+
+[Back to the Top](#note-taker)
+
 ## Screenshots
 
 The following images show the web application's appearance and functionality:
