@@ -42,57 +42,53 @@ There are three main features of this application:
 
 [Back to the Top](#note-taker)
 
-## Screenshots
+# How to Use
 
-The following images show the web application's appearance and functionality:
-
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
+:crystal_ball: This application is really intuitive and easy to use, once the user enters a title and some text body, a `save` button will pop on the top right corner so the user can save this note. Once saved, that note is displayed on the left.
 
 ![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/11-express-homework-demo-02.png)
 
-## Description
+[Back to the Top](#note-taker)
 
-This project builds a web application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+:eyes: User can delete unwanted note by just clicking on the red icon. If user wants to view the text body, he/she can simply click on the note and contents will be displayed.
 
-There are three main features of this application:
+![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
 
-1. When both title and text are entered, click the save icon to save the note to list.
-2. Click the red delete button in the list to delete the corresponding note from the list.
-3. Click the new entry button on top right corner to open a text area to create new note.
+[Back to the Top](#note-taker)
 
-## Technology Used
+# How to Install
 
-- Node.js
-- Express.js
-- RESTful API
-- HTML 5
-- CSS 3
-- Javascript
-- Bootstrap 5
-- Heroku
+:cd: To install this application for local development, install the require packages, use the following command:
 
-## User Story
-
-```
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+```bash
+npm install
 ```
 
-## Acceptance Criteria
+:computer: Once installation is done, use the following command:
 
+```bash
+# Open the application at http://localhost:3000 in your brower
+npm start
 ```
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
-```
+
+[Back to the Top](#note-taker)
+
+# License
+
+:mortar_board: MIT License
+
+Copyright (c) [2021] [Richard Yang]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[Back to the Top](#note-taker)
+
+# Author Info
+
+:space_invader: Tong (Richard) Yang is a full stack software engineering from Canada, living Toronto Area. If you have any questions, email him at richard.yang.tong@gmail.com or visit his [GitHub](https://github.com/Dragontalker).
+
+[Back to the Top](#note-taker)
